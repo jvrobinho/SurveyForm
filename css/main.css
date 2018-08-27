@@ -10,6 +10,7 @@ body{
 .header-image{
     height: 720px;
     width: 100%;
+    margin-left: -1px;
 }
 
 div{
@@ -29,16 +30,16 @@ hr{
 
 
 .fields>input{
-    border: 3px solid #b22222;
+    border: 3px solid #AD7C5F;
     border-radius: 5px;
     width: 35%;
     height: 2rem;
-    background-color: #b22222;
+    background-color: #AD7C5F;
     outline: none;           
 }
 
 hr{
-    border-color:#b8860b;
+    border-color:#FA833E;
 }
 
 b{
@@ -71,7 +72,7 @@ input::placeholder{
 /* -------------------------------------------------------------- */
 /* Text area and dropdown styling */
 textarea, select{
-    background: #b22222;
+    background: #AD7C5F;
     border: none;
     border-radius: 5px;
     width: 35%;
@@ -95,8 +96,8 @@ select{
 /* Button styling */
 #submit{
     position: relative;    
-    color: #b8860b;
-    border: solid 2px #b8860b;
+    color: #FA833E;
+    border: solid 2px #FA833E;
     border-radius: 6px;
     background: transparent;            
     font-size: 16px;
@@ -108,9 +109,9 @@ select{
 }
 
 #submit:hover{
-    color: #eedd82;
-    background-color: #b8860b;
-    border-color: #b8860b;
+    color: white;
+    background-color: #FA833E;
+    border-color: #FA833E;
 }
 /* -------------------------------------------------------------- */
 

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* -------------------------------------------------------------- */
+/* Main/body styling */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #613318;
+}
+.header-image{
+    height: 720px;
+    width: 100%;
+}
+
+div{
+    padding: 8px 0 15px 0;
+}
+
+hr{
+    position: relative;  
+    width: 60%;
+    margin-left: 5px;
+}
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Input fields styling */
+
+
+.fields>input{
+    border: 3px solid #b22222;
+    border-radius: 5px;
+    width: 35%;
+    height: 2rem;
+    background-color: #b22222;
+    outline: none;           
+}
+
+hr{
+    border-color:#b8860b;
+}
+
+b{
+    display: block;
+    position: relative;
+    font-size: 22px;
+    padding-bottom: .1rem;
+}
+
+label{
+    font-size: 18px;
+    padding: 0.2em 0 0.2em 0;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.chkboxes > input, .radiogroup > input{
+    position: relative;
+    right: 1px;   
+}
+
+.chkboxes::-ms-check{
+    text-decoration: underline;
+}
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Text area and dropdown styling */
+textarea, select{
+    background: #b22222;
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    color: white;
+    outline: none;
+}
+
+textarea{
+    position: relative;
+    width: 35%;
+    height: 7rem;    
+}
+
+select{
+    height: 2.425em;
+}
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------- */
+/* Button styling */
+#submit{
+    position: relative;    
+    color: #b8860b;
+    border: solid 2px #b8860b;
+    border-radius: 6px;
+    background: transparent;            
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 14px;    
+    transition-duration: .3s;
+}
+
+#submit:hover{
+    color: #eedd82;
+    background-color: #b8860b;
+    border-color: #b8860b;
+}
+/* -------------------------------------------------------------- */
+
